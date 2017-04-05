@@ -31,6 +31,8 @@ int main(int argc, char* argv[])
 	Eigen::MatrixXd matrixXd;
 	Eigen::Matrix3d matrix3d;
 	Eigen::Matrix<double, 3, 1> mymatrix;
+	mymatrix << 3, 1, 1;
+	std::cout << "mymatrix: \n" << mymatrix << std::endl;
 	//3. ¾ØÕóÔªËØµÄ·ÃÎÊ  
 	m(0, 0) = 1;
 	m(0, 1) = 2;
