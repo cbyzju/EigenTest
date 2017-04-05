@@ -30,7 +30,7 @@ int main(int argc, char* argv[])
 	//2. ¶¯Ì¬¾ØÕó¡¢¾²Ì¬¾ØÕó  
 	Eigen::MatrixXd matrixXd;
 	Eigen::Matrix3d matrix3d;
-
+	Eigen::Matrix<double, 3, 1> mymatrix;
 	//3. ¾ØÕóÔªËØµÄ·ÃÎÊ  
 	m(0, 0) = 1;
 	m(0, 1) = 2;
